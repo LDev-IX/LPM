@@ -1,0 +1,21 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://dxnog24nl52mt"]
+
+[ext_resource type="StyleBox" uid="uid://dr2skcvcwb8i1" path="res://theme/black_disabled.tres" id="1_f6sxl"]
+[ext_resource type="StyleBox" uid="uid://d06y6vrdo8tjb" path="res://theme/black_panel.tres" id="1_grxkw"]
+[ext_resource type="StyleBox" uid="uid://c72mbwud88noy" path="res://theme/black_focus.tres" id="1_xsywn"]
+[ext_resource type="StyleBox" uid="uid://bnbps5d7ufes1" path="res://theme/black_hover.tres" id="2_66qan"]
+[ext_resource type="StyleBox" uid="uid://drx1xoxtavf81" path="res://theme/black_normal.tres" id="3_6l3w0"]
+[ext_resource type="StyleBox" uid="uid://bfvuobongsut2" path="res://theme/black_pressed.tres" id="4_2kmpd"]
+[ext_resource type="StyleBox" uid="uid://ky8yq7sn6mem" path="res://theme/black_normal_lighter.tres" id="6_47aij"]
+
+[resource]
+Button/styles/disabled = ExtResource("1_f6sxl")
+Button/styles/focus = ExtResource("1_xsywn")
+Button/styles/hover = ExtResource("2_66qan")
+Button/styles/normal = ExtResource("3_6l3w0")
+Button/styles/pressed = ExtResource("4_2kmpd")
+LineEdit/styles/focus = ExtResource("1_xsywn")
+LineEdit/styles/normal = ExtResource("6_47aij")
+LineEdit/styles/read_only = ExtResource("1_f6sxl")
+Panel/styles/panel = ExtResource("1_grxkw")
+ScrollContainer/styles/panel = ExtResource("6_47aij")

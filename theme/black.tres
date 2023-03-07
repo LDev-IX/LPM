@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=8 format=3 uid="uid://dxnog24nl52mt"]
+[gd_resource type="Theme" load_steps=9 format=3 uid="uid://dxnog24nl52mt"]
 
 [ext_resource type="StyleBox" uid="uid://dr2skcvcwb8i1" path="res://theme/black_disabled.tres" id="1_f6sxl"]
 [ext_resource type="StyleBox" uid="uid://d06y6vrdo8tjb" path="res://theme/black_panel.tres" id="1_grxkw"]
@@ -8,12 +8,24 @@
 [ext_resource type="StyleBox" uid="uid://bfvuobongsut2" path="res://theme/black_pressed.tres" id="4_2kmpd"]
 [ext_resource type="StyleBox" uid="uid://ky8yq7sn6mem" path="res://theme/black_normal_lighter.tres" id="6_47aij"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qys2p"]
+bg_color = Color(0.0627451, 0.0627451, 0.0627451, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
 [resource]
 Button/styles/disabled = ExtResource("1_f6sxl")
 Button/styles/focus = ExtResource("1_xsywn")
 Button/styles/hover = ExtResource("2_66qan")
 Button/styles/normal = ExtResource("3_6l3w0")
 Button/styles/pressed = ExtResource("4_2kmpd")
+ItemList/colors/font_color = Color(1, 1, 1, 1)
+ItemList/colors/font_outline_color = Color(1, 1, 1, 0)
+ItemList/colors/font_selected_color = Color(0.0627451, 0.0627451, 0.0627451, 1)
+ItemList/styles/focus = SubResource("StyleBoxFlat_qys2p")
+ItemList/styles/selected = ExtResource("6_47aij")
 LineEdit/styles/focus = ExtResource("1_xsywn")
 LineEdit/styles/normal = ExtResource("6_47aij")
 LineEdit/styles/read_only = ExtResource("1_f6sxl")

@@ -50,6 +50,7 @@ size_flags_horizontal = 3
 auto_height = true
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 180)
 layout_mode = 2
 
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer2"]
@@ -60,5 +61,19 @@ text = "Description:"
 layout_mode = 2
 theme_override_font_sizes/font_size = 12
 autowrap_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Install"
+
+[node name="Button2" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Uninstall"
 
 [connection signal="item_selected" from="MarginContainer/VBoxContainer/VBoxContainer/ScrollContainer/ItemList" to="." method="_OnItemListSelect"]

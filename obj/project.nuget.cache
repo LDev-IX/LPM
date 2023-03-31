@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DgBKNidpvVnEIajJ5xemvX/V/GjsTI9DQBxswBXL9apNxCanFMjr2MgdfZbC4cTl5IDnwKS/JBppqAH+OWipCQ==",
+  "success": true,
+  "projectFilePath": "D:\\programming\\csharp\\LPM\\LPM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ldevix\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.3\\microsoft.netcore.app.runtime.win-x64.7.0.3.nupkg.sha512",
+    "C:\\Users\\ldevix\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.3.nupkg.sha512",
+    "C:\\Users\\ldevix\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.3\\microsoft.aspnetcore.app.runtime.win-x64.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
